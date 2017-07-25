@@ -487,7 +487,7 @@ $(function() {
 							left: $('.wl').eq(index).offset().left / 50 + 0.4 + 'rem'
 						});
 					});
-					$('.p5p').on('touchstart',function(){
+					$('.p5p').on('click',function(){
 						var Cpjsindex = $(this).index();
 						setTimeout(function(){
 							$('.P5Click').css('display','none');
